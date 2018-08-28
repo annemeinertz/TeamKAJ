@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+
+@media(max-width:767px) {
+    body {
+        background-color: #ebf0e6;
+    }
+
+    /*** INDEX.HTML ***/
+    .loginform h1 {
+        font-weight: 100;
+    }
+
+    /* Buttons */
+    .facebook {
+        background-position: center;
+        transition: background 0.8s;
+    }
+    .facebook:hover {
+        background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    }
+    .facebook:active {
+        background-color: #6eb9f7;
+        background-size: 100%;
+        transition: background 0s;
+    }
+
+    .signup {
+        background-position: center;
+        transition: background 0.8s;
+    }
+    .signup:hover {
+        background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    }
+    .signup:active {
+        background-color: #6eb9f7;
+        background-size: 100%;
+        transition: background 0s;
+    }
+    button {
+        border: none;
+        width: 220px;
+        border-radius: 2px;
+        padding: 12px 18px;
+        font-size: 16px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: white;
+        background-color: #2196f3;
+        box-shadow: 0 0 4px #999;
+        outline: none;
+    }
+    /*
+
+    /*** QUESTIONS.HTML ***/
+    /*Checkbox*/
+    .loginform {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .textbox {
+        width: 100%;
+        height: 30px;
+    }
+
+    /*Checkbox end*/
+    /*Button*/
+}
